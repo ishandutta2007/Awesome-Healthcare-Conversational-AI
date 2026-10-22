@@ -128,7 +128,7 @@ Key architectural concepts and search keywords covered include:
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted by GitHub Stars Count (Descending)* ⭐
+*Sorted by GitHub_Stars_Count (Descending)* ⭐
 
 - **[Rasa](https://github.com/RasaHQ/rasa)** <a href="https://github.com/RasaHQ/rasa/stargazers"><img src="https://img.shields.io/github/stars/RasaHQ/rasa?style=social&color=white" alt="Rasa Stars"/></a>  
   🛠️ **Open-source conversational AI framework** (Apache-2.0). Industry standard for mission-critical healthcare dialogue systems, appointment intake, and clinical triage bots with on-premise HIPAA compliance control and deterministic rule-plus-LLM hybrid flows. **Best for enterprise healthcare systems requiring on-premise deployment and strict data governance**.
