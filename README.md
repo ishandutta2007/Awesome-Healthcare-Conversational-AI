@@ -378,3 +378,96 @@ Thank you for exploring **Awesome Healthcare Conversational AI**! If you find th
 
 </p>
 >>>>>>> 626adba12c18512cd5c80a188690a6c706eca6b2
+# Top Healthcare Conversational AI Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Clinical Triage, Patient Engagement & Self-Hosted Health Chatbot Platforms*  
+**Last updated: October 2026**
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Healthcare Conversational AI**. These tools enable patients and providers to interact through chat or voice for symptom assessment, triage, chronic care support, and mental health coaching—while navigating the strict safety, privacy, and regulatory requirements of clinical environments.
+
+**Examples** include Ada, Babylon Health (now eMed), K Health, Buoy Health, Infermedica, GYANT, Sensely, Woebot Health, and Wysa (the category leaders).
+
+**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, clinical research, and transparent health dialogue systems—ideal for hospitals, research institutions, and developers building localized or specialized health assistants. The open-source landscape is anchored by **GARDE-Chat** (a scalable platform validated in large pragmatic clinical trials), **OpenCHA** (an LLM-powered framework for personalized health agents), and **Lina** (a regional Arabic medical chatbot), with numerous symptom-checker and medical-LLM projects serving narrower use cases.
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+- **[Ada](https://ada.com/)**  
+  Clinical AI platform for symptom assessment and care navigation. Used by health systems and insurers to triage patients and direct them to appropriate care. Proprietary with enterprise licensing.
+
+- **[Babylon Health (eMed)](https://www.emed.com/)**  
+  Formerly a major AI triage and telehealth provider, Babylon's assets were acquired by eMed. The consumer-facing AI symptom checker has been largely discontinued or absorbed; verify current availability before considering.
+
+- **[K Health](https://khealth.com/)**  
+  AI-powered primary care platform combining symptom assessment with access to clinicians for treatment. Consumer subscription and enterprise partnerships.
+
+- **[Buoy Health](https://www.buoyhealth.com/)**  
+  AI symptom checker and care navigation tool. Guides users through symptom analysis and suggests appropriate care settings. Consumer-facing with enterprise partnerships.
+
+- **[Infermedica](https://infermedica.com/)**  
+  Medical triage and symptom checker API used by health systems, insurers, and telehealth companies. Offers structured clinical interviews and triage recommendations. API-based with enterprise licensing.
+
+- **[GYANT](https://gyant.com/)**  
+  AI-powered patient intake and triage platform. Automates clinical questionnaires and routes patients to appropriate care. Enterprise licensing for health systems.
+
+- **[Sensely](https://sensley.com/)**  
+  Virtual assistant platform with a nurse avatar ("Molly") for patient engagement, symptom checking, and care management. Used by health plans and providers. Enterprise licensing.
+
+- **[Woebot Health](https://woebothealth.com/)**  
+  CBT-based mental health chatbot for anxiety and depression support. Clinical evidence base with FDA Breakthrough Device designation. **Note**: Woebot's GitHub organization contains only forks and no public chatbot code; the product is proprietary and clinical .
+
+- **[Wysa](https://www.wysa.com/)**  
+  AI chatbot for mental health support using CBT, DBT, and mindfulness techniques. Available as consumer app and enterprise offering for employers and health systems. Proprietary.
+
+## Open-Source GitHub Projects
+
+- **[GARDE-Chat](https://github.com/not-publicly-listed)**  
+  A scalable, open-source platform for building and deploying health chatbots, developed at the University of Utah and published in JAMIA in 2026 . **Validated in production**: supported multiple studies including large pragmatic clinical trials on genetic testing, COVID-19 testing, tobacco cessation, and cancer screening . **Features**: visual authoring interface for non-programmers, support for scripted, LLM-based, and hybrid chatbots, integration with EHR and REDCap, delivery via web browser or SMS (Twilio), and detailed audit logs for research analysis . Built on Spring MVC, Angular, PostgreSQL, and LangChain4J. Best for research institutions and health systems that need a proven, scalable platform for population health interventions.
+
+- **[OpenCHA](https://github.com/Institute4FutureHealth/CHA)**  
+  An LLM-powered framework for building Conversational Health Agents, from the Institute for Future Health . **Architecture**: central Orchestrator with Task Planner (Tree of Thought or ReAct prompting), external data sources, knowledge bases, and AI/analysis models accessed via APIs . Supports **multimodal inputs** (text, images, audio) and **multilingual** interaction. Not a ready-made chatbot—a foundational framework for researchers and developers to build customized health agents. Apache 2.0 licensed. Best for developers who want to build LLM-powered health agents with tool use and external knowledge integration.
+
+- **[Lina Egyptian Medical Chatbot](https://github.com/dina-khalid/Lina-Egyptian-Medical-Chatbot)**  
+  A regional, localized medical assistant chatbot for home injuries, designed for Egyptian users . Uses intent classification (18 classes) with tokenization, lemmatization, and bag-of-words features. Built with Keras Sequential API and Tflearn. Reported validation accuracy ~96%, test accuracy ~88% on real responses . **Status**: last updated 2022, minimal activity (0 stars, 0 forks). Best for Arabic-language health chatbot prototyping and educational reference, not production deployment without substantial updates.
+
+- **[AI Symptom Checker](https://github.com/ShubhamAIML/AI-Symptom-Checker)**  
+  A web-based symptom checker using scikit-learn RandomForestClassifier. Flask backend with Bootstrap frontend. Predicts top 3 probable diseases from selected symptoms with confidence scores. No permanent storage of personal data . Best for educational projects and simple symptom-checking demos.
+
+- **[GP-Tea Symptom Checker](https://huggingface.co/spaces/Tantawi/Text_classification)**  
+  A FastAPI-based symptom analysis service using XGBoost. Analyzes 297 medical symptoms and returns top 3 disease predictions with confidence percentages. CORS-enabled for web integration . Best for developers wanting a simple API-first symptom checker to build upon.
+
+### Additional Strong Open-Source Options
+
+- **Healtho Healthcare Chatbot** — Python-based virtual healthcare companion for medical information and wellness assistance. Active development (12 stars, updated recently) . Best for a starting point for general health Q&A chatbots.
+- **Healthcare Chatbot (itachi9604)** — scikit-learn-based symptom checker that asks follow-up questions and provides advice. 247 stars, 160 forks—the most popular project in the `healthcare-chatbot` topic . Best for learning symptom-checker architecture.
+- **Medical Chatbot (KalyanM45)** — LLaMA 2-based medical chatbot for querying PDF documents using Pinecone vector search. Best for RAG-based medical document Q&A.
+- **Frameworks for building custom systems**: Use **GARDE-Chat** for research-grade, scalable population health interventions with EHR integration. Use **OpenCHA** for LLM-powered agents that need tool use and external knowledge. Use **Lina** or the symptom checker projects as starting points for localized or simple triage interfaces. For LLM-based Q&A, pair a local model (via Ollama) with LangChain and Pinecone for RAG over medical literature .
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- **Healthcare conversational AI carries clinical risk**: symptom checkers and triage tools must not be used as substitutes for professional medical advice. Any deployment in a clinical context requires rigorous validation, regulatory review (FDA, CE, etc.), and human oversight.
+- **Most commercial leaders are proprietary and closed**: Babylon Health has been absorbed, Woebot's public GitHub contains no chatbot code, and platforms like Ada and Infermedica are enterprise APIs . Open-source alternatives are primarily research frameworks (GARDE-Chat, OpenCHA) or individual projects of varying maturity.
+- **Lina** has not been updated since 2022 and has minimal community traction; treat it as a reference implementation, not production software .
+
+---
+
+**Made for clinical informaticists, health system developers, and researchers building patient-facing conversational tools.**  
+Let's make healthcare conversational AI more open, validated, and safe.
