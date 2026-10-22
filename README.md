@@ -1,9 +1,5 @@
 # Awesome-Healthcare-Conversational-AI
 
-<<<<<<< HEAD
-=======
-# Awesome-Healthcare-Conversational-AI
-
 # 🎬 Awesome Healthcare Conversational AI
 
 
@@ -110,47 +106,25 @@ Key architectural concepts and search keywords covered include:
 
 ## 📊 Sector Overview & Market Dynamics
 
-
-
-> 📈 **Estimated Market Size & Sector Structure:** The global healthcare conversational AI market is estimated at **~$1.8 Billion** in 2026, projected to exceed **~$8.5 Billion by 2032** (CAGR ~28%). The sector exhibits a **moderately fragmented** structure: clinical-grade AI platforms (Ada Health, Infermedica, K Health) dominate enterprise health system deployments with regulatory clearances and clinical validation, while **mental health bots** (Woebot, Wysa) and **regional frameworks** (Lina) capture niche and underserved markets. Ada Health generates **$21.7M in annual revenue** with 197 employees , while K Health reached a **$1.4B valuation** in 2021 before adjusting to **$800M in 2023** . Woebot Health has raised **over $100M** in total funding , and Wysa secured a **$7.17M grant from Wellcome Trust** in 2026 . The sector faces regulatory headwinds as mental health chatbots face FTC scrutiny, while clinical-grade systems pursue FDA clearance and CE marking.
-
-
+> 📈 **Estimated Market Size & Sector Structure:** The global healthcare conversational AI market is estimated at **$1.8 Billion** in 2026, projected to exceed **$8.5 Billion by 2032** (CAGR ~28%). The sector exhibits a **moderately fragmented** structure: clinical-grade platforms (K Health, Ada Health, Fabric/GYANT, Infermedica) vie for hospital and payer digital front door integrations, while specialized mental health conversational agents (Wysa, Woebot) and niche developer APIs serve distinct segments without a single winner-take-all monopoly.
 
 ---
-
-
 
 ## ☁️ SaaS/Hosted Platforms
 
-
-
 | Platform / Service | Company Size (Valuation / Revenue) ↓ | Pricing (Starting Tier) | Free Tier / Free Trial Limit | Key Focus & Capabilities |
-
 | :--- | :--- | :--- | :--- | :--- |
-
-| **[Ada Health](https://ada.com/)** | **~$21.7M** Annual Revenue (197 employees, Berlin)  | **Free** for consumers; **Enterprise pricing** on request | **Free consumer app** (Google Play: free)  | Clinical-grade symptom assessment platform regulated as Class IIa medical device. Built by doctors and scientists, provides personalized symptom assessments and care guidance. **Best for enterprise health systems and insurers requiring regulatory-cleared triage**. |
-
-| **[Babylon Health](https://www.babylonhealth.com/)** | **~$1.05B** Revenue (Unicorn, London)  | **£5/month** subscription or **£25 one-off** video consultation  | **No free tier**; subscription-based access | AI-powered mobile doctor app with video consultations. UK-focused digital-first primary care provider. **Best for UK-based patients seeking affordable virtual GP access**. |
-
-| **[K Health](https://khealth.com/)** | **~$1.4B** Valuation (2021 peak; **$800M** in 2023)  | **$35** one-time visit; **$79/month** membership (unlimited primary + mental health)  | **Free symptom checker** app; paid consultations | AI-powered text-based primary care platform. 10M+ users; 3.1M patients completed doctor chats across 48 states. **Best for high-frequency users and uninsured patients wanting affordable text-based care** . |
-
-| **[Infermedica](https://infermedica.com/)** | **~$18.6M** Revenue; **$223.6M** Valuation (222 employees, Poland)  | **Enterprise API pricing** on request  | **Free trial** available; no free version | Clinical-grade symptom checker and triage API for healthcare organizations. Provides medical reasoning engine for developers to embed. **Best for developers and health systems needing embeddable clinical triage APIs** . |
-
-| **[Buoy Health](https://www.buoyhealth.com/)** | **~$18.5M** Revenue; **$66.7M** Funding (Boston)  | **Free** for consumers; **Enterprise pricing** for health systems | **Free consumer symptom checker** | AI-powered clinical support platform providing personalized care navigation. 27 employees; focused on payer and provider enterprise partnerships. **Best for health systems seeking patient navigation and triage** . |
-
-| **[Sensely](https://sensely.com/)** | **~$26.79M** Total Raised (Acquired by Mediktor, June 2024)  | **Enterprise custom quote** only; no public pricing  | **No free tier**; enterprise sales only | Avatar-based conversational AI platform for insurers, pharma, and health systems. Uses virtual assistants to improve member engagement and health outcomes. **Best for insurance plans and pharma companies needing member engagement bots** . |
-
-| **[Woebot Health](https://woebothealth.com/)** | **~$100M** Total Funding (111 employees, founded 2017)  | **Free** (consumer app); **Enterprise pricing** for health systems | **Free consumer app** for mental health support | Evidence-based AI-powered mental health support tool for anxiety and depression. Uses CBT principles in conversational format. **Best for health plans and employers offering mental health resources** . |
-
-| **[Wysa](https://www.wysa.com/)** | **~$32.35M** Total Funding (founded 2015)  | **Free** (basic); **Premium subscription** available | **Free basic version**; premium features via subscription | AI-driven mental health and wellness platform with chatbot and human coaching. NHS AI Lab and Google Assistant Investments backing. **Best for individuals and organizations seeking scalable mental health support** . |
-
-| **[GYANT](https://gyant.com/)** | **~$29.21M** Total Raised (**Acquired by Fabric**, Jan 2024)  | **Enterprise pricing** (now part of Fabric) | **No free tier** | AI-care navigation assistant using NLP to guide patients through clinical encounters. **Best for hospital systems seeking integrated patient navigation within Fabric's platform** . |
-
-
+| **[Babylon Health](https://www.babylonhealth.com/)** | **~$1.05B** Peak Revenue / Valued at **$4.2B** (UK operations acquired by eMed in 2023) | **£5/month** subscription or **£25** one-off consultation | **No free tier** (Full access requires paid subscription or NHS registration) | AI-powered virtual GP app and digital consultation provider; UK operations restructured under eMed UK. **Best for digital-first primary care and telehealth navigation**. |
+| **[K Health](https://khealth.com/)** | **~$870M–$900M** Valuation (**$443M+** Total Funding, ~$52M Revenue) | **$35** one-time visit or **$79/month** membership | **Free symptom checker** with unlimited AI chat queries; paid physician consultations & prescriptions | AI-powered primary care platform integrating clinical AI models with physician-guided care pathways. **Best for fast symptom assessment and affordable text-based doctor visits**. |
+| **[Ada Health](https://ada.com/)** | **~$360M–$500M** Valuation (**$200M+** Total Funding, ~$21.7M Annual Revenue) | **Free** for consumers; **Enterprise tier** on request | **100% Free forever** for individual users (unlimited symptom assessments, profile histories, and report exports) | CE-marked Class IIa clinical-grade symptom assessment & care navigation engine built by physicians. **Best for clinical-grade consumer triage and health system front doors**. |
+| **[Fabric (GYANT)](https://fabrichealth.com/)** | **~$250M–$500M** Valuation (**$80M+** Total Funding; acquired GYANT in 2024) | **$19/month** consumer virtual care or **B2B custom licensing** | **No free tier**; interactive enterprise demo provided upon sales qualification | Conversational AI platform and virtual care enablement suite guiding patients from digital intake through triage. **Best for enterprise health systems deploying automated digital front doors**. |
+| **[Infermedica](https://infermedica.com/)** | **~$223.6M** Valuation (**$18.6M** Revenue, 222 employees) | **Custom annual/monthly API license** based on API call tiers | **60-day free trial** with up to **2,000 API calls** via Developer Portal (plus free public consumer access on Symptomate) | Regulatory-cleared medical guidance platform and developer API for clinical decision support. **Best for health systems, payers, and developers integrating symptom checkers and triage APIs**. |
+| **[Woebot Health](https://woebothealth.com/)** | **~$100M+** Total Funding (111 employees, founded 2017) | **Enterprise / Employer subscription** per covered member | **No public free tier** (Standalone consumer app retired June 2025; free access only via sponsoring employers/insurers) | Evidence-based conversational AI delivering Cognitive Behavioral Therapy (CBT) techniques and emotional support. **Best for employers and health plans seeking clinically validated digital mental health**. |
+| **[Buoy Health](https://www.buoyhealth.com/)** | **~$66.7M** Funding (**~$18.5M** Revenue, 27 employees) | **Free** for consumers; **Custom PMPM** (Per Member Per Month) for enterprise | **100% Free forever** for consumer web/mobile symptom checks; enterprise pilot sandbox available upon sales request | AI-driven triage and digital navigation platform directing patients to suitable care options and health benefits. **Best for insurers and employers seeking personalized healthcare navigation**. |
+| **[Wysa](https://www.wysa.com/)** | **~$32.35M** Total Funding (Backed by Wellcome Trust & NHS AI Lab) | **$9.99/month** (Wysa Premium self-care) or **$29.99/week** (with human coaching) | **Free forever plan** with unlimited AI chatbot conversations, mood tracking, and introductory mindfulness tools (200+ specialized exercises require Premium) | Emotionally intelligent mental health bot using CBT, DBT, and meditation strategies with optional coach support. **Best for individuals and organizations wanting scalable, stigma-free emotional support**. |
+| **[Sensely](https://sensely.com/)** | **~$26.79M** Total Raised (Acquired by Mediktor, June 2024) | **Enterprise custom quote** scaled by active member lives | **No free tier**; scheduled sales demo & enterprise evaluation pilot upon request (AskFirst demo available for evaluation) | Avatar-driven virtual assistant platform for clinical assessment, triage, and patient engagement. **Best for health plans and pharma organizations seeking empathetic conversational member intake**. |
 
 ---
-
-
 
 ## 🔓 Open-Source GitHub Projects
 
